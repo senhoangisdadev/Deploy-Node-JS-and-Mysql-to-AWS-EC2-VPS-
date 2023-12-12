@@ -9,7 +9,7 @@ app.get('/mysql', (req, res) => {
     var con = mysql.createConnection({
         host: "localhost",
         user: "root",
-        password: "12345678"
+        password: "Gent@lment1980"
     });
     con.connect(function (err) {
         if (err) {
